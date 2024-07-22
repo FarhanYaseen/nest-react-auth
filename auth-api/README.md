@@ -51,10 +51,6 @@ MONGODB_URI=mongodb://localhost/auth-db
 ```
 
 
-# MongoDB in Docker
-
-This README provides simple instructions for setting up and running MongoDB in a Docker container using Docker Compose.
-
 ## Prerequisites
 
 Ensure you have Docker and Docker Compose installed on your system.
