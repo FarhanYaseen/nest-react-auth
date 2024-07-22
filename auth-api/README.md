@@ -32,7 +32,27 @@
 $ npm install
 ```
 
+## Setting the env file
+
+create an `.env` file and set
+
+```
+PORT=
+CORS_ORIGIN=
+MONGODB_URI=
+```
+
+e.g.
+```
+PORT=3010
+CORS_ORIGIN=http://localhost:3011
+MONGODB_URI=mongodb://localhost/auth-db
+
+```
+
+
 ## Running the app
+
 
 ```bash
 # development
