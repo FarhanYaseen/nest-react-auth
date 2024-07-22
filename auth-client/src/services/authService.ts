@@ -1,12 +1,19 @@
 import axios from "axios";
+const BASE_URL = process.env.REACT_APP_API_URL
+
+
 
 interface SignupValues {
   email: string;
   name: string;
   password: string;
 }
+
 export const signup = async (values: SignupValues): Promise<void> => {
-  return await axios.post("http://localhost:3010/auth/signup", values);
+  return await axios.post(
+    `${BASE_URL}/auth/signup`,
+    values
+  );
 };
 
 interface SigninValues {
@@ -15,5 +22,8 @@ interface SigninValues {
 }
 
 export const signin = async (values: SigninValues): Promise<void> => {
-  return await axios.post("http://localhost:3010/auth/signin", values);
+  return await axios.post(
+    `${BASE_URL}/auth/signin`,
+    values
+  );
 };

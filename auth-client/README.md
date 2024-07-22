@@ -9,6 +9,17 @@ This project is an authentication client that includes the following features:
 - **Sign Up Page**: Allows users to create new accounts.
 - **Welcome Page**: Accessible only to authenticated users.
 
+## Prerequisites
+
+Add `.env` file with the following env variables
+```bash
+REACT_APP_API_URL=<URL of the app-api>
+```
+
+e.g
+```bash
+REACT_APP_API_URL=http://localhost:3010
+```
 ## Available Scripts
 
 In the project directory, you can run:
