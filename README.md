@@ -14,3 +14,13 @@ This project is divided into two main parts:
 
 Each part has its own README file with instructions for running the project locally.
 
+## Prerequisites
+
+Before you begin, ensure you have the following installed on your system:
+
+- Docker
+- Docker Compose
+- node
+- mongodb
+
+
